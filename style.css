@@ -1,0 +1,569 @@
+body{
+    margin: 0px;
+}
+
+/* Body header*/
+#body-header{
+    height: 75vh;
+    opacity: 0.6;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 20px 25px 25px 0px;
+    font-size: 25px;
+}
+
+.horizontal-list li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-tab li a{
+    transition: color 0.5s, border-bottom 3s;
+}
+.nav-tab li a:hover{
+    color: #5e3e02;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    
+    
+}
+.text-center{
+    text-align: center;
+}
+
+#name-soial-container{
+    margin-top: 20vh;
+}
+#name{
+    padding-top: 75px;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    color: wheat;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+#about{
+    position: relative;
+    height: auto;
+    width: 100;
+}
+#image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px lightgray;
+    border: 3px solid white;
+}
+
+/* For all the section */
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section:nth-child(2n){
+    background-color: white;
+}
+
+section:nth-child(2n+1){
+    background-color: rgb(245, 244, 244);
+}
+
+#about-para{
+    font-size: 1.1rem;
+    align-items: center;
+    /* color: grey; */
+    padding: 40px;
+    justify-content: center;
+    margin: auto;
+    text-align: justify;
+    width: 70%;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: blueviolet;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+    /* text-align: center; */
+}
+
+/* SKILL SECTIONS */
+#skills {
+    
+    margin: auto;
+    height: 87vh;
+    display: flex;
+    width: 75%;
+    /* background-color: #0b0b72; */
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 134px;
+    box-shadow: 2px 2px 16px white;
+    margin-bottom: 48px;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.skills img {
+    position: relative;
+    border-radius: 50%;
+    width: 67px;
+    left: -15px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 80%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 8px ;
+  
+}
+
+.skills2 {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: rgb(88, 59, 138);} /* Green */
+.Dsa {width: 80%; background-color: #ae82f6;} /* Blue */
+.python {width: 85%; background-color: #6e23f0;} /* Blue */
+.java {width: 65%; background-color: #baa2e5;} /* Red */
+.c {width: 60%; background-color: #642dc2;} /* Dark Grey */
+.cimage img {
+    width: 141px;
+    position: relative;
+    top: 105px;
+    left: -50px;
+    background: none;
+    border-radius: 50%;
+}
+
+
+
+
+/* Colour classes */
+.mb-blue{
+    background-color: blueviolet;
+}
+
+.mb-orange{
+    background-color: orangered;
+}
+
+.mb-lightpurple{
+    background-color: rgb(188, 97, 188);
+}
+
+.mb-green{
+    background-color: rgb(2, 59, 2);
+}
+.mb-violet{
+    background-color: violet;
+}
+
+/* percentage classes */
+.eightyfive-percent{
+    width: 85%;
+    height: inherit;
+} 
+.timeline-logo img{
+    width: 50px;
+    }
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+}
+
+.Ninty-percent{
+    width: 90%;
+    height: inherit;
+}
+.fifty-percent{
+    width: 50%;
+    height: inherit;
+}
+.sixty-percent{
+    width: 60%;
+    height: inherit;
+}
+
+/* Protfolio section */
+#protfolio-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+
+.portfolio-image-container{
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image-container img{
+    height: 150px;
+    width: 150px;
+}
+.portfolio-details{
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10%;
+    overflow-wrap: break-word;
+}
+
+.portfolio-image-container:hover{
+    box-shadow: 1px 1px 5px 3px wheat;
+}
+
+.portfolio-image-container:hover .portfolio-details{
+    background-color: #50505078;
+    color: white;
+}
+
+
+#resume {
+    width: 100%;
+    padding: 0px;
+    height: 90vh;
+
+}
+#resume h2{
+    padding-top: 4px;
+    font-size: 40px;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 344px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 0 2px 0px;
+    
+  }
+ .container button{
+    margin-left: 96px;
+   width: 150px;
+   padding: 5px;
+    border-radius: 15px;
+    top: -23px;
+    box-shadow: 2px 2px 1.5px white;
+    background-color: rgb(150, 73, 223);
+}
+.container button a{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 20px;
+}
+.resume-title button:hover{
+    background-color: grey;
+}
+.resume-title button a{
+    color: black;
+    font-size: 1.5rem;
+    padding: 5px;
+   
+}
+/* Contact section */
+#contact{
+    background-color:#0abcf9 ;
+    background-image:linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,#contact h1 span{
+    color: white;
+}
+
+.contact-container{
+    display: flex;
+}
+
+#contact-form{
+    margin-left: 20%;
+}
+.contact-form-container{
+    width: 50%;
+}
+
+#my-details-container{
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3{
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#my-details-container p{
+    color:#d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container{
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span{
+    margin-left:0.4rem;
+}
+
+.my-details-info-container i{
+    color: white;
+}
+.my-details-icon{
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+#contact-form input,textarea{
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: #d9dcdd;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 0.8rem;
+}
+
+#contact-form button[type="submit"]{
+    background: transparent;
+    font-size: 0.8rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    color: white;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    line-height: 1;
+    padding: 0.8rem 0.8rem 0.78rem;
+}
+
+#contact-form button:hover{
+    background-color: wheat;
+    color: #13386fe0;
+}
+
+input:focus,select:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+#contact .social-icons li a i{
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+}
+
+
+/* Work Experience */
+.timeline{
+    position: relative;
+    width: 75%;
+    /* border: 2px solid black; */
+}
+
+.timeline-box{
+    position: relative;
+    width: 40%;   
+    margin: 5px;
+    left: 5%;
+    min-height: 150px;
+    /* border: 2px solid black; */
+}
+
+.timeline-box:nth-child(2n){
+    left: 50%;
+}
+
+.timeline-box:nth-child(2n)::before{
+    content: ' ';
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(109, 109, 109);
+    left: -6.5%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: ' ';
+    border-radius: 50%;
+    position: absolute;
+    top: 38%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(109, 109, 109);
+    left:106%;
+    z-index: 2; 
+    
+}
+.timeline-divider{
+    position: absolute;
+    width: 0;
+    height: 75%;
+    border: 3px dashed rgb(119, 98, 169);
+    top: 10%;
+    left: 48%;
+}
+
+.timeline-traveller{
+    position: sticky;
+    top: 5%;
+    rotate: 90deg;
+}
+
+.designation{
+color: blueviolet;
+text-align: right;
+font-size: 1.4rem;
+}
+
+.comapny-name{
+color: burlywood;
+text-align: right;
+margin: 5px 0 0;
+font-size: 1.2rem;
+}
+
+.month{
+color: black;
+text-align: right;
+font-weight: 100;
+font-size: 1rem;
+margin-top: -0.1px;
+}
+
+.experience-deails{
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+.timeline-logo{
+    position: absolute;
+    width: 20%;
+    overflow: hidden;
+}
+.timeline-logo img{
+    width: 100%;
+}
+
+/* education section */
+.grade{
+    color: red;
+    text-align: right;
+    font-weight: 100;
+    font-size: 1rem;   
+    margin-top: -15px;
+    /* padding: 5px; */
+}
+.container2{
+    text-align: center;
+
+}
+.button-2{
+    background-color: #5eb4ff; /* Green */
+    border: rgb(59, 59, 255);
+    box-shadow: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
